@@ -7,7 +7,7 @@ app.include_router(products.router)
 
 @app.get("/")
 async def root():
-    return "Welcome to the FastAPI application"
+    return "Welcome to the FastAPI Webapp!"
     #return {"status": "ok", "service": settings.app_name}
 
 # Debug: shows which DB URL was loaded
